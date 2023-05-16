@@ -1,6 +1,5 @@
 function letterCombinations(digitstr) {
   //Complete the function
-	 digitstr = "23";
 let output = [];
 function solve(index,str){
 if(index >= digitstr.length){
